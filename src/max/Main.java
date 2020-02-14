@@ -22,6 +22,8 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.setMaxHeight(600);
         primaryStage.setMaxWidth(800);
+        primaryStage.setX(100);
+        primaryStage.setY(100);
         //primaryStage.setScene(new Scene(root, primaryStage.getWidth(), primaryStage.getHeight()));
         primaryStage.setTitle("ComPort"); // установка заголовка окна
         primaryStage.show();                        /* отображаем окно на экране устройства */
